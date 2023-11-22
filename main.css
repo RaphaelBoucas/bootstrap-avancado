@@ -2,6 +2,9 @@ header {
     background-color:rgba(0, 0, 0, 0.029)
 }
 
+p {
+    text-align: justify;
+}
 .container h3 {
     color: #797979;
     font-weight: 500;
@@ -43,10 +46,13 @@ footer {
 
 }
 
-footer div p {
+footer div h5 {
     padding: 16px 0;
     margin: 0;
 }
+
+
+
 
 @media (min-width: 768px) and (max-width: 991px) {
 
@@ -58,6 +64,10 @@ footer div p {
         position: relative;
         overflow-y:hidden;
         
+    }
+
+    .card {
+    
     }
 }
 
